@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* Palette color codes */
+/* Feel free to copy&paste color codes to your application */
+
+.primary-1 { background-color: #A4732A }
+.primary-2 { background-color: #645237 }
+.primary-3 { background-color: #4B2E04 }
+.primary-4 { background-color: #BE8D44 }
+.primary-5 { background-color: #BE9455 }
+
+.secondary-a-1 { background-color: #A48E2A }
+.secondary-a-2 { background-color: #645C37 }
+.secondary-a-3 { background-color: #4B3E04 }
+.secondary-a-4 { background-color: #BEA844 }
+.secondary-a-5 { background-color: #BEAB55 }
+
+.secondary-b-1 { background-color: #A4412A }
+.secondary-b-2 { background-color: #643F37 }
+.secondary-b-3 { background-color: #4B1204 }
+.secondary-b-4 { background-color: #BE5C44 }
+.secondary-b-5 { background-color: #BE6955 }
+
+/* end */
+
+
+html, body
+	{
+	background-color:#000000;
+	background-image: url(../images/water_only.png);
+	background-position-x: right;
+	background-position-y: bottom;
+	background-repeat: repeat;
+	}
+
+#octo_container
+	{
+	position: absolute;
+	left:400px;
+	top:20px;
+	width:760px;
+	height:700;
+	z-index:3;
+    background-image:url(../images/octopus_only.gif);
+    
+	}
+
+#header_container
+	{
+	position:relative;
+	left:70px;
+	top:20px;
+	width:600px;
+	height:auto;
+	z-index:3;
+	}
+    
+#link_container
+	{
+	position:relative;
+	left:70px;
+	top:40px;
+	width:600px;
+	height:auto;
+	z-index:3;
+	}
+	
+#content_container
+	{
+	position:relative;
+	left:70px;
+	top:70px;
+	width:400px;
+	height:auto;
+	z-index:3;
+	}
+
+#playlist_container
+	{
+	position:relative;
+    left:70;
+    margin-right:auto;
+	top:90px;
+    width:1000;
+	height:auto;
+	z-index:3;
+	}
+
+#camfm_container
+	{
+	position:relative;
+	left:70px;
+	top:170px;
+	width:500px;
+	height:auto;
+	z-index:3;
+	}
+    
+#table_container
+	{
+	position:relative;
+	left:70px;
+	top:400px;
+	width:1200px;
+	height:auto;
+	z-index:3;
+	}
+    
+#footer
+	{
+	position:absolute;
+	left:70px;
+	top:750px;
+	width:500px;
+	height:auto;
+	z-index:3;
+	}
+
+
+p
+	{
+	padding:0;
+	margin:0;
+	font-family:Arial;
+	font-size:12px;
+	color:#000000;
+	}
+h1 	
+	{
+	margin:0;
+	font-family: 'Chango', serif;
+	font-size:72px;
+	font-weight:normal;
+	color:	#A4732A;
+	}
+    
+h2 	
+	{
+	margin:0;
+	font-family: 'Chango', serif;
+	font-size:24px;
+	font-weight:normal;
+	color:	#A4732A;
+	}
+p1 	
+	{
+	margin:0;
+	font-family: 'Chango', serif;
+	font-size:24px;
+	font-weight:normal;
+	color:	#A4732A;
+	}
+p2 	
+	{
+	margin:0;
+	font-family: 'Chango', serif;
+	font-size:24px;
+	font-weight:normal;
+	color:	#A48E2A;
+	}
+p3 	
+	{
+	margin:0;
+	font-family: 'Chango', serif;
+	font-size:32px;
+	font-weight:normal;
+	color:	#BE6955;#A4732A;
+	}
+    
+h3 	
+	{
+	margin:0;
+	font-family: 'Chango', serif;
+	font-size:32px;
+	font-weight:normal;
+	color:	#A48E2A;
+	}
+    
+p 	
+	{
+	margin:0;
+	font-family: 'Chango', serif;
+	font-size:24px;
+	font-weight:normal;
+	color:	#A48E2A;
+	}
+
+
+
+.menudiv
+	{
+	width:91px;
+	height:34px;
+	float:top;
+	background-image:url(images/octopus_wallpaper_noborder.png);
+	margin-bottom:3px;
+	text-align:center;
+	line-height:34px;
+	}
+.menudiv:hover
+	{
+	background-image:url();
+	background-color: #827839;
+	color:#FFFFFF;
+	}
+
+	
+ A:link{COLOR:#A4732A;TEXT-DECORATION:none;} 
+A:visited{COLOR:#A4732A;TEXT-DECORATION:none;}  
+ A:active{COLOR:#A4732A;TEXT-DECORATION:none;} 
+A:hover{COLOR:#4B2E04;TEXT-DECORATION:none;} 
+
+#menu_container A:link{COLOR:#827839;TEXT-DECORATION:none;} 
+#menu_container A:visited{COLOR:#827839;TEXT-DECORATION:none;}  
+#menu_container A:active{COLOR:	#827839;TEXT-DECORATION:none;} 
+#menu_container A:hover{COLOR:#FFFFFF;TEXT-DECORATION:none;} 
+
+#menu_container A.sh:link{COLOR:#827839;TEXT-DECORATION:none;} 
+#menu_container A.sh:visited{COLOR:#FF0080;TEXT-DECORATION:none;}  
+#menu_container A.sh:active{COLOR: #827839;TEXT-DECORATION:none;} 
+#menu_container A.sh:hover{COLOR:#FFFFFF;TEXT-DECORATION:none;}
